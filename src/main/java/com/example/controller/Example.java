@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Example {
 	@RequestMapping("/example")
     public String sayHello() {
-		return "<h2> Hello Spring Boot...!!</h2>";
+		return "<h2> Hello Kubernetes...!!</h2>";
 	}
 
 
