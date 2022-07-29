@@ -16,7 +16,7 @@ spec:
       spec: 
         containers: 
         - name: docker-k8-demo
-          image: rajeshrayani/docker-demo
+          image: rajeshrayani/docker-demo:latest
           ports: 
           - containerPort: 8080
          
