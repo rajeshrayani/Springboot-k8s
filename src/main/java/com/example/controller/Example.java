@@ -4,9 +4,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class Example {
-	@RequestMapping("/example")
+	@RequestMapping("/")
     public String sayHello() {
-		return "<h2> Welcome to Kube...!!</h2>";
+		return "<h2>Kubectl...!!</h2>";
 	}
 
 
